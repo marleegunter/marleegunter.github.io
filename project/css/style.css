@@ -1,13 +1,15 @@
 body {
     text-align: justify; 
-    background-color: teal ;
+	background-color: teal ;
+	font-family: Arial, Helvetica, sans-serif;
 }
 p {
     background-color: white;
 }
 header {
-    color:white;
+    color:black;
 }
+
 header, main, footer {
     max-width: 960px;
     margin: 0 auto;
@@ -22,14 +24,16 @@ body {
 header {
 	background-color: #fff;
 	padding: 5px 0;
+	border-radius: 1rem;
 	display: flex;
-	align-items:center;
-	justify-content:center;
+	align-items: center;
+	justify-content: center;
 }
 
 header img {
 	width: 125px;
 	height: auto;
+	align-items: left;
 }
 
 .headings {
@@ -43,9 +47,6 @@ header img {
 	margin: 0;
 }
 
-.motto {
-	font-style: italic;
-	color: forestgreen;
-	font-size: 1rem;
-	letter-spacing: 1.5pt;
+.social {
+	text-align: right;
 }
