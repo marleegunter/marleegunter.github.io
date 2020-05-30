@@ -3,7 +3,7 @@
   }
   
   body {
-    font-size: 16;
+    font-size: 16px;
     color: #333;
     background-color: #eee;
     height: 100vh;
@@ -16,7 +16,7 @@
   
   h1 {
     color: navy;
-    text-size-adjust: 1.2em;
+    text-size-adjust: 0;
   }
   
   p {
