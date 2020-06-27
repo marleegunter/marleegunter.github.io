@@ -111,7 +111,7 @@ header nav ul li {
 main section {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 100px;
+	grid-gap: 10px;
 }
 
 .foot {
@@ -121,6 +121,15 @@ main section {
 	.______ {
 	  display: block;
 	}
+}
+.temple {
+width: 450px;
+height: 350px;
+padding: 13px;
+}
+
+.big{
+	text-align: center;
 }
 
 
