@@ -35,10 +35,7 @@ header img {
 	height: auto;
 }
 
-.headings {
-	display: flex;
-	flex-direction: column;
-}
+
 
 .heading h1 {
 	font-size: 1.5rem;
@@ -108,10 +105,9 @@ header nav ul li {
     font-size: 1.2em;
 }
 
-main section {
+.wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 10px;
+	grid-template-columns: 40% 60%;
 }
 
 .foot {
