@@ -1,6 +1,7 @@
 
 p {
-    background-color:lightgray;
+    background-color:whitesmoke;
+    padding: 10px;
     
     
 }
@@ -133,3 +134,22 @@ padding: 13px;
 	text-align: center;
 }
 
+h4 {text-align: center;
+    
+    font-size: 1.25rem;
+}
+
+h2 {font-size: 2.5rem;
+color: blue;
+background-color: lightgray;
+text-align: center;}
+h3 {font-size: 1.75rem;
+padding: 10px;}
+
+.options {text-align: center;}
+
+.menu {background-color: whitesmoke;}
+
+.normal {background-color:lightgray;}
+
+.plain {padding: 0px;}
